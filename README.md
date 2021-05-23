@@ -16,6 +16,6 @@ Great, here's your new encrypted key:
 ```
 
 # Required to mention
-- The hashed password meets all security standards
-- A hashed password contains numbers, small and capital letters
-- The hashed password is always 24 characters long
+- The hashed password **meets all security standards**
+- A hashed password **contains numbers, small and capital letters**
+- The hashed password **is always 24 characters long**
