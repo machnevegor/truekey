@@ -19,3 +19,8 @@ Great, here's your new encrypted key:
 - The hashed password **meets all security standards**
 - A hashed password **contains numbers, small and capital letters**
 - The hashed password **is always 24 characters long**
+
+# Interesting features
+- You can restore a hashed password from absolutely any computer
+- If you press the enter key twice in a row without everything, a randomly generated password will be displayed
+- This API is easy to integrate into your systems, because it is easy to implement itself
