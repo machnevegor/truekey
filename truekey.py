@@ -52,7 +52,7 @@ class TruePort():
         for letter in key:
             if key.count(letter) % 2 == 0:
                 key = key.replace(letter, letter.upper())
-        return "".join(key)[:24]
+        return key[:24]
 
 #######################################
 # Project name: MEB | TrueKey-API     #
