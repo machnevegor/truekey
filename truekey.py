@@ -48,7 +48,7 @@ class TruePort():
         Returns a hashed key created by merging seed and keyhole.
         """
 
-        return md5(str(keyhole + self.seed).encode()).hexdigest()
+        return md5(str(keyhole + self.seed).encode()).hexdigest().upper()
 
 #######################################
 # Project name: MEB | TrueKey-API     #
