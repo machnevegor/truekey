@@ -10,6 +10,7 @@
 from time import sleep
 from truekey import TruePort
 
+# the text that will be displayed at the start of the program
 LOADING_TEXT = "\n".join([
     "#######################################",
     "# Project name: MEB | TrueKey-API     #",
@@ -22,6 +23,7 @@ LOADING_TEXT = "\n".join([
 ])
 
 
+# a function that creates the effect of step-by-step text pri
 def typewriter(text: str, time: int):
     for line in text.split("\n"):
         for letter in line:
@@ -30,13 +32,21 @@ def typewriter(text: str, time: int):
         print()
 
 
+# the main code of the program that interacts with the API
 if __name__ == "__main__":
+    # output of a special text at the start of the program
     typewriter(text=LOADING_TEXT, time=3)
+
+    # create an indent for further more enjoyable interaction
     print()
+
+    # generating a hashed key using the imported API
     typewriter(text="So, first, enter seed to generate the encrypted key:", time=1)
-    generator = TruePort(seed=str(input(">>> ")))
+    seed = str(input(">>> "))
+    generator = TruePort(seed=seed) if seed != "" else TruePort()
     typewriter(text="Now enter the keyhole for which the key will be intended:", time=1)
-    key = generator.create(keyhole=str(input(">>> ")))
+    keyhole = str(input(">>> "))
+    key = generator.create(keyhole=keyhole) if seed != "" else generator.create()
     typewriter(text="Great, here's your new encrypted key:", time=1)
     typewriter(text=f">>> {key}", time=1)
 
