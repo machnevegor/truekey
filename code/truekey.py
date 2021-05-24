@@ -48,10 +48,16 @@ class TruePort():
         Returns a hashed key created by merging seed and keyhole.
         """
 
-        key = md5(str(keyhole + self.seed).encode()).hexdigest()
+        # generating a hashed key by multiplying two arrays with the seed and keyhole character codes
+        key = md5("".join(list(map(lambda keyhole, seed: str(keyhole * seed), [ord(letter) for letter in keyhole],
+                                       [ord(letter) for letter in self.seed]))).encode()).hexdigest()
+
+        # creating capital letters by analyzing the number of letter occurrences in a key
         for letter in key:
             if key.count(letter) % 2 == 0:
                 key = key.replace(letter, letter.upper())
+
+        # returning a truncated key to 24 characters in accordance with key security standards
         return key[:24]
 
 #######################################
