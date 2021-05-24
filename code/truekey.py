@@ -49,8 +49,8 @@ class TruePort():
         """
 
         # generating a hashed key by multiplying two arrays with the seed and keyhole character codes
-        key = md5("".join(list(map(lambda keyhole, seed: str(keyhole * seed), [ord(letter) for letter in keyhole],
-                                       [ord(letter) for letter in self.seed]))).encode()).hexdigest()
+        key = md5(str(int("".join([str(ord(letter)) for letter in keyhole])) * int(
+            "".join([str(ord(letter)) for letter in self.seed]))).encode()).hexdigest()
 
         # creating capital letters by analyzing the number of letter occurrences in a key
         for letter in key:
