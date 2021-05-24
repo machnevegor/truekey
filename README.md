@@ -24,3 +24,4 @@ Great, here's your new encrypted key:
 - You can restore a hashed password from absolutely any computer
 - If you press the enter key twice in a row without everything, a randomly generated password will be displayed
 - This API is easy to integrate into your systems, because it is easy to implement itself
+- To run the program, you do not need a python, because the program is already in a ready-compiled form
