@@ -1,9 +1,9 @@
 @: #######################################
 @: # Project name: MEB | TrueKey-API     #
-@: # Code&Doc: > github.com/mebofficial  #
+@: # Code&Doc: > github.com/machnevegor  #
 @: # Author's name:    | Link to VK/TG:  #
 @: # > Machnev Egor    | > @machnev_egor #
-@: # Official website: > egorik.com      #
+@: # Official website: > kostyl.net      #
 @: # Email: > egorikhelp@gmail.com       #
 @: #######################################
 
@@ -12,9 +12,9 @@ pause
 
 @: #######################################
 @: # Project name: MEB | TrueKey-API     #
-@: # Code&Doc: > github.com/mebofficial  #
+@: # Code&Doc: > github.com/machnevegor  #
 @: # Author's name:    | Link to VK/TG:  #
 @: # > Machnev Egor    | > @machnev_egor #
-@: # Official website: > egorik.com      #
+@: # Official website: > kostyl.net      #
 @: # Email: > egorikhelp@gmail.com       #
 @: #######################################

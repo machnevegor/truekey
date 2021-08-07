@@ -1,9 +1,9 @@
 #######################################
 # Project name: MEB | TrueKey-API     #
-# Code&Doc: > github.com/mebofficial  #
+# Code&Doc: > github.com/machnevegor  #
 # Author's name:    | Link to VK/TG:  #
 # > Machnev Egor    | > @machnev_egor #
-# Official website: > egorik.com      #
+# Official website: > kostyl.net      #
 # Email: > egorikhelp@gmail.com       #
 #######################################
 
@@ -13,10 +13,10 @@ from truekey import TruePort
 def main():
     print("#######################################\n"
           "# Project name: MEB | TrueKey-API     #\n"
-          "# Code&Doc: > github.com/mebofficial  #\n"
+          "# Code&Doc: > github.com/machnevegor  #\n"
           "# Author's name:    | Link to VK/TG:  #\n"
           "# > Machnev Egor    | > @machnev_egor #\n"
-          "# Official website: > egorik.com      #\n"
+          "# Official website: > kostyl.net      #\n"
           "# Email: > egorikhelp@gmail.com       #\n"
           "#######################################\n")
 
@@ -30,9 +30,9 @@ if __name__ == "__main__":
 
 #######################################
 # Project name: MEB | TrueKey-API     #
-# Code&Doc: > github.com/mebofficial  #
+# Code&Doc: > github.com/machnevegor  #
 # Author's name:    | Link to VK/TG:  #
 # > Machnev Egor    | > @machnev_egor #
-# Official website: > egorik.com      #
+# Official website: > kostyl.net      #
 # Email: > egorikhelp@gmail.com       #
 #######################################

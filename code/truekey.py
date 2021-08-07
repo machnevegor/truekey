@@ -1,9 +1,9 @@
 #######################################
 # Project name: MEB | TrueKey-API     #
-# Code&Doc: > github.com/mebofficial  #
+# Code&Doc: > github.com/machnevegor  #
 # Author's name:    | Link to VK/TG:  #
 # > Machnev Egor    | > @machnev_egor #
-# Official website: > egorik.com      #
+# Official website: > kostyl.net      #
 # Email: > egorikhelp@gmail.com       #
 #######################################
 
@@ -71,3 +71,12 @@ class TruePort():
                 key = key.replace(letter, letter.upper())
 
         return key[:length] if length < len(key) else key
+
+#######################################
+# Project name: MEB | TrueKey-API     #
+# Code&Doc: > github.com/machnevegor  #
+# Author's name:    | Link to VK/TG:  #
+# > Machnev Egor    | > @machnev_egor #
+# Official website: > kostyl.net      #
+# Email: > egorikhelp@gmail.com       #
+#######################################
