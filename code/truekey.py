@@ -1,11 +1,10 @@
-#######################################
-# Project name: MEB | TrueKey-API     #
-# Code&Doc: > github.com/machnevegor  #
-# Author's name:    | Link to VK/TG:  #
-# > Machnev Egor    | > @machnev_egor #
-# Official website: > kostyl.net      #
-# Email: > egorikhelp@gmail.com       #
-#######################################
+#########################################
+# Project name: MEB | TrueKey-API [1.2] #
+# Code&Doc: > github.com/machnevegor    #
+# Author's name:    | Link to VK/TG:    #
+# > Machnev Egor    | > @machnev_egor   #
+# Email: > egorikhelp@gmail.com         #
+#########################################
 
 from random import random
 from hashlib import md5
@@ -72,11 +71,10 @@ class TruePort():
 
         return key[:length] if length < len(key) else key
 
-#######################################
-# Project name: MEB | TrueKey-API     #
-# Code&Doc: > github.com/machnevegor  #
-# Author's name:    | Link to VK/TG:  #
-# > Machnev Egor    | > @machnev_egor #
-# Official website: > kostyl.net      #
-# Email: > egorikhelp@gmail.com       #
-#######################################
+#########################################
+# Project name: MEB | TrueKey-API [1.2] #
+# Code&Doc: > github.com/machnevegor    #
+# Author's name:    | Link to VK/TG:    #
+# > Machnev Egor    | > @machnev_egor   #
+# Email: > egorikhelp@gmail.com         #
+#########################################
